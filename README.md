@@ -28,7 +28,7 @@ python analysis/figures.py         # Figures 2 and 3 -> results/
 2. **Break-even task value** V* = (extra cost per task) / (extra success rate). If one completed task is worth more than V*, run the frontier model.
 3. **Prompt caching moves V* from $0.47 (95% CI $0.31 to $0.94) to $0.08 ($0.055 to $0.138).** Caching removes most of the frontier model's re-read context and leaves the quality gap in place. Comparing cached Sonnet against uncached Haiku gives $0.06.
 4. **On single calls the small model wins outright:** 91.3% vs 89.8% success at $0.00019 vs $0.00360 per task (150 tasks, 3 runs).
-5. **Re-priced from the same logs** (the method reproduces the measured uncached bill exactly):
+5. **Re-priced from the same logs** (re-pricing the uncached logs reproduces their recorded cost exactly):
    - A cache that is marked but always misses costs $0.158 per task: 6.5x a working cache, and 23% more than no cache.
    - A cold-cache handoff from Haiku to Sonnet at the first tool error (17 of 50 tasks, median 5,847 tokens of history) costs $0.0146, which is 61% of an entire cached Sonnet task.
 
@@ -86,7 +86,7 @@ harness/       the experiment harness, task samples, prices and raw run logs
 
 - **Workload.** BFCL v4 at gorilla commit `6ea5797`, seed 42. Single-turn: 150 tasks, 30 from each of five categories. Multi-turn: 50 of the 200 `multi_turn_base` tasks, across eight simulated domains (file system, messaging, posting, ticketing, math, trading, travel, vehicle control), with 1 to 6 user turns and 5.8 ground-truth calls on average. Tool errors are returned to the model, and BFCL's state and response checks grade every turn.
 - **Configurations.** Sonnet 5.5 and Haiku 5.5, with and without prompt caching (5-minute ephemeral breakpoints), and low vs medium reasoning effort. The cached Haiku configuration also has a 5-call tool budget. All share one system prompt, `max_tokens` 16,000, and tool choice auto. See `CONFIGS` in `harness/run_experiment.py`.
-- **Prices.** `harness/pricing_oct2026.json`, verified against Anthropic's pricing page on 2026-10-14. Haiku 5.5 is priced per request by prompt length (all prompts here are under 100K tokens).
+- **Prices.** `harness/pricing_oct2026.json`, verified against Anthropic's pricing page on 2026-10-14. Haiku 5.5 is priced per request by prompt length (all prompts here are under 100K tokens). Every cost is the provider-reported token count for that call multiplied by these list prices; nothing here is reconciled against invoices.
 - **Statistics.** Wilson intervals, an exact McNemar test on paired task outcomes (Sonnet-only vs Haiku-only successes: 14 vs 1 uncached, p = 0.001; 14 vs 0 cached), and a 10,000-sample paired bootstrap over tasks for V*.
 
 ### Re-running the experiment (costs money)
