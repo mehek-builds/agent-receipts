@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "currency": "USD",
+    "unit": "per_million_tokens",
+    "verified_date": "2026-10-14",
+    "verified_source": "https://platform.claude.com/docs/en/about-claude/pricing (Anthropic official pricing page, Model pricing table)",
+    "verify_note": "Every rate below was checked against the official Anthropic pricing page on 2026-10-14. Re-check on the run day if the run happens later. Cache writes use the 5-minute rate because the harness only uses ephemeral (5-minute) cache breakpoints.",
+    "haiku_tiering": "Official: Claude Haiku 5.5 prices a request by its prompt length (all input tokens, including cache reads and writes). Prompts up to 100,000 tokens use tier_low; over 100,000 use tier_high. The harness applies the tier per request.",
+    "sonnet_cache_read": "Official page lists Sonnet 5.5 cache hits at $0.10/MTok (0.05x base input). The cut from $0.20 was announced by @claudeai on X on 2026-10-07 (https://x.com/claudeai/status/2107894060229034197; the post ID decodes to 2026-10-07 18:01 UTC)."
+  },
+  "models": {
+    "claude-haiku-5-5": {
+      "provider": "anthropic",
+      "tier_high": {
+        "cache_read_per_mtok": 0.05,
+        "cache_write_5min_per_mtok": 0.625,
+        "input_per_mtok": 0.5,
+        "output_per_mtok": 2.5,
+        "cache_write_1h_per_mtok": 1.0
+      },
+      "tier_low": {
+        "cache_read_per_mtok": 0.01,
+        "cache_write_5min_per_mtok": 0.125,
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.5,
+        "cache_write_1h_per_mtok": 0.2
+      }
+    },
+    "claude-sonnet-5-5": {
+      "cache_read_per_mtok": 0.1,
+      "cache_write_1h_per_mtok": 4.0,
+      "cache_write_5min_per_mtok": 2.5,
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 10.0,
+      "provider": "anthropic"
+    }
+  },
+  "tool_charges": {
+    "_note": "BFCL tools are not executed in this protocol, so a_i = 0 for every step. Add per-call USD charges here when wiring real APIs.",
+    "default_per_call_usd": 0.0
+  }
+}

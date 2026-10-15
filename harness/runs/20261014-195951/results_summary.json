@@ -1,0 +1,112 @@
+{
+  "configs": {
+    "frontier_low": {
+      "n": 150,
+      "successes": 137,
+      "success_rate": 0.9133333333333333,
+      "success_ci95": [
+        0.8573705468757647,
+        0.9486533114304411
+      ],
+      "total_cost_usd": 0.521704,
+      "mean_cost_per_task": 0.0034780266666666663,
+      "cost_per_success": 0.0038080583941605835,
+      "llm_calls": 150,
+      "failed_attempts": 0,
+      "failure_rate_f": 0.0,
+      "failed_attempt_cost_usd": 0.0,
+      "tokens": {
+        "input_tokens": 112742,
+        "output_tokens": 29622,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "per_category": {
+        "simple_python": {
+          "n": 30,
+          "success": 28,
+          "cost_usd": 0.06456599999999998
+        },
+        "multiple": {
+          "n": 30,
+          "success": 29,
+          "cost_usd": 0.08165599999999998
+        },
+        "parallel": {
+          "n": 30,
+          "success": 28,
+          "cost_usd": 0.12142400000000003
+        },
+        "parallel_multiple": {
+          "n": 30,
+          "success": 27,
+          "cost_usd": 0.15340000000000004
+        },
+        "irrelevance": {
+          "n": 30,
+          "success": 25,
+          "cost_usd": 0.10065799999999998
+        }
+      },
+      "pareto": false
+    },
+    "small_low": {
+      "n": 150,
+      "successes": 137,
+      "success_rate": 0.9133333333333333,
+      "success_ci95": [
+        0.8573705468757647,
+        0.9486533114304411
+      ],
+      "total_cost_usd": 0.0279377,
+      "mean_cost_per_task": 0.00018625133333333334,
+      "cost_per_success": 0.00020392481751824816,
+      "llm_calls": 150,
+      "failed_attempts": 0,
+      "failure_rate_f": 0.0,
+      "failed_attempt_cost_usd": 0.0,
+      "tokens": {
+        "input_tokens": 112742,
+        "output_tokens": 33327,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "per_category": {
+        "simple_python": {
+          "n": 30,
+          "success": 29,
+          "cost_usd": 0.0032158000000000004
+        },
+        "multiple": {
+          "n": 30,
+          "success": 29,
+          "cost_usd": 0.0043253
+        },
+        "parallel": {
+          "n": 30,
+          "success": 28,
+          "cost_usd": 0.006314699999999999
+        },
+        "parallel_multiple": {
+          "n": 30,
+          "success": 24,
+          "cost_usd": 0.00866
+        },
+        "irrelevance": {
+          "n": 30,
+          "success": 27,
+          "cost_usd": 0.005421899999999999
+        }
+      },
+      "pareto": true
+    }
+  },
+  "selection": {
+    "threshold": 0.9,
+    "best_config": "frontier_low",
+    "best_success_rate": 0.9133333333333333,
+    "pick": "small_low",
+    "pick_success_rate": 0.9133333333333333,
+    "saving_vs_best_config": 0.9464491359084845
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "configs": {
+    "frontier": {
+      "n": 150,
+      "successes": 134,
+      "success_rate": 0.8933333333333333,
+      "success_ci95": [
+        0.8337524992356726,
+        0.9332702046363619
+      ],
+      "total_cost_usd": 0.540164,
+      "mean_cost_per_task": 0.0036010933333333332,
+      "cost_per_success": 0.004031074626865671,
+      "llm_calls": 150,
+      "failed_attempts": 0,
+      "failure_rate_f": 0.0,
+      "failed_attempt_cost_usd": 0.0,
+      "tokens": {
+        "input_tokens": 112742,
+        "output_tokens": 31468,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "per_category": {
+        "simple_python": {
+          "n": 30,
+          "success": 28,
+          "cost_usd": 0.06458599999999999
+        },
+        "multiple": {
+          "n": 30,
+          "success": 28,
+          "cost_usd": 0.08236599999999997
+        },
+        "parallel": {
+          "n": 30,
+          "success": 28,
+          "cost_usd": 0.12163399999999999
+        },
+        "parallel_multiple": {
+          "n": 30,
+          "success": 25,
+          "cost_usd": 0.16701000000000002
+        },
+        "irrelevance": {
+          "n": 30,
+          "success": 25,
+          "cost_usd": 0.10456800000000004
+        }
+      },
+      "pareto": false
+    },
+    "small": {
+      "n": 150,
+      "successes": 137,
+      "success_rate": 0.9133333333333333,
+      "success_ci95": [
+        0.8573705468757647,
+        0.9486533114304411
+      ],
+      "total_cost_usd": 0.0291302,
+      "mean_cost_per_task": 0.0001942013333333333,
+      "cost_per_success": 0.00021262919708029196,
+      "llm_calls": 150,
+      "failed_attempts": 0,
+      "failure_rate_f": 0.0,
+      "failed_attempt_cost_usd": 0.0,
+      "tokens": {
+        "input_tokens": 112742,
+        "output_tokens": 35712,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "per_category": {
+        "simple_python": {
+          "n": 30,
+          "success": 29,
+          "cost_usd": 0.0032348000000000003
+        },
+        "multiple": {
+          "n": 30,
+          "success": 28,
+          "cost_usd": 0.0043967999999999985
+        },
+        "parallel": {
+          "n": 30,
+          "success": 28,
+          "cost_usd": 0.0064786999999999996
+        },
+        "parallel_multiple": {
+          "n": 30,
+          "success": 24,
+          "cost_usd": 0.008995
+        },
+        "irrelevance": {
+          "n": 30,
+          "success": 28,
+          "cost_usd": 0.0060249
+        }
+      },
+      "pareto": true
+    },
+    "small_cache_budget": {
+      "n": 150,
+      "successes": 137,
+      "success_rate": 0.9133333333333333,
+      "success_ci95": [
+        0.8573705468757647,
+        0.9486533114304411
+      ],
+      "total_cost_usd": 0.03053275,
+      "mean_cost_per_task": 0.00020355166666666667,
+      "cost_per_success": 0.0002228667883211679,
+      "llm_calls": 150,
+      "failed_attempts": 0,
+      "failure_rate_f": 0.0,
+      "failed_attempt_cost_usd": 0.0,
+      "tokens": {
+        "input_tokens": 56561,
+        "output_tokens": 35708,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 56181
+      },
+      "per_category": {
+        "simple_python": {
+          "n": 30,
+          "success": 29,
+          "cost_usd": 0.00330195
+        },
+        "multiple": {
+          "n": 30,
+          "success": 29,
+          "cost_usd": 0.005009180000000001
+        },
+        "parallel": {
+          "n": 30,
+          "success": 27,
+          "cost_usd": 0.006669019999999999
+        },
+        "parallel_multiple": {
+          "n": 30,
+          "success": 25,
+          "cost_usd": 0.00958127
+        },
+        "irrelevance": {
+          "n": 30,
+          "success": 27,
+          "cost_usd": 0.0059713299999999995
+        }
+      },
+      "pareto": false
+    }
+  },
+  "selection": {
+    "threshold": 0.9,
+    "best_config": "small",
+    "best_success_rate": 0.9133333333333333,
+    "pick": "small",
+    "pick_success_rate": 0.9133333333333333,
+    "saving_vs_best_config": 0.0
+  }
+}

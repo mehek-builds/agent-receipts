@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+.DS_Store
+harness/runs/*-dry/
+harness/runs_mt/*-dry/
+harness/data_raw/
+.pytest_cache/

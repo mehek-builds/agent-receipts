@@ -1,0 +1,282 @@
+[frontier] 1/50 multi_turn_base_1 success=True cost=$0.09499 steps=10 failed=0
+[frontier] 2/50 multi_turn_base_6 success=False cost=$0.14821 steps=15 failed=0
+[frontier] 3/50 multi_turn_base_7 success=True cost=$0.09544 steps=7 failed=0
+[frontier] 4/50 multi_turn_base_8 success=False cost=$0.14253 steps=9 failed=0
+[frontier] 5/50 multi_turn_base_11 success=True cost=$0.06933 steps=5 failed=1
+[frontier] 6/50 multi_turn_base_22 success=True cost=$0.16956 steps=12 failed=0
+[frontier] 7/50 multi_turn_base_23 success=True cost=$0.08441 steps=7 failed=0
+[frontier] 8/50 multi_turn_base_24 success=True cost=$0.13412 steps=11 failed=0
+[frontier] 9/50 multi_turn_base_26 success=True cost=$0.07262 steps=8 failed=0
+[frontier] 10/50 multi_turn_base_28 success=False cost=$0.14664 steps=10 failed=1
+[frontier] 11/50 multi_turn_base_35 success=True cost=$0.17642 steps=12 failed=1
+[frontier] 12/50 multi_turn_base_39 success=True cost=$0.09828 steps=10 failed=0
+[frontier] 13/50 multi_turn_base_40 success=True cost=$0.11276 steps=10 failed=0
+[frontier] 14/50 multi_turn_base_50 success=True cost=$0.01902 steps=2 failed=0
+[frontier] 15/50 multi_turn_base_55 success=True cost=$0.22030 steps=16 failed=2
+[frontier] 16/50 multi_turn_base_56 success=True cost=$0.11883 steps=11 failed=2
+[frontier] 17/50 multi_turn_base_57 success=True cost=$0.07479 steps=5 failed=0
+[frontier] 18/50 multi_turn_base_59 success=True cost=$0.25419 steps=16 failed=2
+[frontier] 19/50 multi_turn_base_62 success=False cost=$0.18255 steps=13 failed=1
+[frontier] 20/50 multi_turn_base_67 success=True cost=$0.17597 steps=14 failed=2
+[frontier] 21/50 multi_turn_base_70 success=True cost=$0.11948 steps=11 failed=2
+[frontier] 22/50 multi_turn_base_71 success=True cost=$0.15337 steps=14 failed=0
+[frontier] 23/50 multi_turn_base_86 success=True cost=$0.15488 steps=10 failed=1
+[frontier] 24/50 multi_turn_base_87 success=True cost=$0.12539 steps=12 failed=2
+[frontier] 25/50 multi_turn_base_88 success=True cost=$0.14325 steps=9 failed=1
+[frontier] 26/50 multi_turn_base_91 success=True cost=$0.06036 steps=5 failed=0
+[frontier] 27/50 multi_turn_base_97 success=True cost=$0.24927 steps=18 failed=2
+[frontier] 28/50 multi_turn_base_107 success=True cost=$0.09544 steps=11 failed=0
+[frontier] 29/50 multi_turn_base_108 success=True cost=$0.12321 steps=11 failed=0
+[frontier] 30/50 multi_turn_base_114 success=True cost=$0.12383 steps=12 failed=0
+[frontier] 31/50 multi_turn_base_117 success=True cost=$0.12483 steps=14 failed=0
+[frontier] 32/50 multi_turn_base_129 success=True cost=$0.11897 steps=10 failed=0
+[frontier] 33/50 multi_turn_base_137 success=True cost=$0.10528 steps=10 failed=0
+[frontier] 34/50 multi_turn_base_139 success=True cost=$0.05931 steps=5 failed=0
+[frontier] 35/50 multi_turn_base_143 success=True cost=$0.12982 steps=12 failed=0
+[frontier] 36/50 multi_turn_base_150 success=True cost=$0.06408 steps=6 failed=0
+[frontier] 37/50 multi_turn_base_151 success=True cost=$0.13192 steps=8 failed=0
+[frontier] 38/50 multi_turn_base_154 success=True cost=$0.16840 steps=11 failed=0
+[frontier] 39/50 multi_turn_base_163 success=True cost=$0.07217 steps=6 failed=0
+[frontier] 40/50 multi_turn_base_166 success=True cost=$0.15610 steps=11 failed=0
+[frontier] 41/50 multi_turn_base_168 success=True cost=$0.16620 steps=12 failed=0
+[frontier] 42/50 multi_turn_base_173 success=False cost=$0.11619 steps=8 failed=0
+[frontier] 43/50 multi_turn_base_181 success=False cost=$0.15433 steps=10 failed=0
+[frontier] 44/50 multi_turn_base_182 success=True cost=$0.04247 steps=4 failed=0
+[frontier] 45/50 multi_turn_base_185 success=False cost=$0.09515 steps=7 failed=0
+[frontier] 46/50 multi_turn_base_188 success=False cost=$0.23805 steps=14 failed=0
+[frontier] 47/50 multi_turn_base_189 success=True cost=$0.15045 steps=9 failed=0
+[frontier] 48/50 multi_turn_base_190 success=True cost=$0.17072 steps=11 failed=0
+[frontier] 49/50 multi_turn_base_191 success=True cost=$0.11088 steps=10 failed=0
+[frontier] 50/50 multi_turn_base_197 success=True cost=$0.10523 steps=7 failed=0
+[small] 1/50 multi_turn_base_1 success=True cost=$0.00768 steps=15 failed=1
+[small] 2/50 multi_turn_base_6 success=False cost=$0.00882 steps=16 failed=1
+[small] 3/50 multi_turn_base_7 success=True cost=$0.00681 steps=9 failed=0
+[small] 4/50 multi_turn_base_8 success=False cost=$0.00748 steps=9 failed=0
+[small] 5/50 multi_turn_base_11 success=True cost=$0.00393 steps=5 failed=1
+[small] 6/50 multi_turn_base_22 success=False cost=$0.00746 steps=10 failed=0
+[small] 7/50 multi_turn_base_23 success=True cost=$0.00504 steps=8 failed=1
+[small] 8/50 multi_turn_base_24 success=True cost=$0.00657 steps=10 failed=0
+[small] 9/50 multi_turn_base_26 success=True cost=$0.00441 steps=9 failed=1
+[small] 10/50 multi_turn_base_28 success=False cost=$0.00757 steps=10 failed=1
+[small] 11/50 multi_turn_base_35 success=True cost=$0.00630 steps=8 failed=0
+[small] 12/50 multi_turn_base_39 success=True cost=$0.00500 steps=10 failed=0
+[small] 13/50 multi_turn_base_40 success=True cost=$0.00607 steps=10 failed=0
+[small] 14/50 multi_turn_base_50 success=True cost=$0.00096 steps=2 failed=0
+[small] 15/50 multi_turn_base_55 success=False cost=$0.01187 steps=16 failed=2
+[small] 16/50 multi_turn_base_56 success=False cost=$0.00661 steps=12 failed=1
+[small] 17/50 multi_turn_base_57 success=True cost=$0.00381 steps=5 failed=0
+[small] 18/50 multi_turn_base_59 success=True cost=$0.01271 steps=15 failed=2
+[small] 19/50 multi_turn_base_62 success=False cost=$0.00670 steps=9 failed=0
+[small] 20/50 multi_turn_base_67 success=True cost=$0.00934 steps=14 failed=3
+[small] 21/50 multi_turn_base_70 success=False cost=$0.00702 steps=12 failed=2
+[small] 22/50 multi_turn_base_71 success=False cost=$0.00890 steps=16 failed=1
+[small] 23/50 multi_turn_base_86 success=False cost=$0.00888 steps=11 failed=1
+[small] 24/50 multi_turn_base_87 success=False cost=$0.00701 steps=12 failed=1
+[small] 25/50 multi_turn_base_88 success=False cost=$0.00883 steps=11 failed=1
+[small] 26/50 multi_turn_base_91 success=True cost=$0.00325 steps=5 failed=0
+[small] 27/50 multi_turn_base_97 success=True cost=$0.01293 steps=18 failed=2
+[small] 28/50 multi_turn_base_107 success=True cost=$0.00505 steps=11 failed=0
+[small] 29/50 multi_turn_base_108 success=True cost=$0.00623 steps=11 failed=0
+[small] 30/50 multi_turn_base_114 success=True cost=$0.00562 steps=11 failed=0
+[small] 31/50 multi_turn_base_117 success=False cost=$0.00575 steps=13 failed=0
+[small] 32/50 multi_turn_base_129 success=True cost=$0.00690 steps=11 failed=0
+[small] 33/50 multi_turn_base_137 success=True cost=$0.00525 steps=10 failed=0
+[small] 34/50 multi_turn_base_139 success=True cost=$0.00302 steps=5 failed=0
+[small] 35/50 multi_turn_base_143 success=True cost=$0.00619 steps=11 failed=0
+[small] 36/50 multi_turn_base_150 success=True cost=$0.00352 steps=6 failed=0
+[small] 37/50 multi_turn_base_151 success=True cost=$0.00679 steps=8 failed=0
+[small] 38/50 multi_turn_base_154 success=False cost=$0.00839 steps=11 failed=0
+[small] 39/50 multi_turn_base_163 success=True cost=$0.00364 steps=6 failed=0
+[small] 40/50 multi_turn_base_166 success=True cost=$0.00808 steps=11 failed=0
+[small] 41/50 multi_turn_base_168 success=False cost=$0.00906 steps=12 failed=0
+[small] 42/50 multi_turn_base_173 success=False cost=$0.00595 steps=8 failed=0
+[small] 43/50 multi_turn_base_181 success=True cost=$0.00933 steps=12 failed=0
+[small] 44/50 multi_turn_base_182 success=True cost=$0.00216 steps=4 failed=0
+[small] 45/50 multi_turn_base_185 success=False cost=$0.00604 steps=8 failed=0
+[small] 46/50 multi_turn_base_188 success=False cost=$0.01164 steps=13 failed=0
+[small] 47/50 multi_turn_base_189 success=False cost=$0.00759 steps=9 failed=0
+[small] 48/50 multi_turn_base_190 success=False cost=$0.00931 steps=11 failed=0
+[small] 49/50 multi_turn_base_191 success=True cost=$0.00570 steps=10 failed=0
+[small] 50/50 multi_turn_base_197 success=False cost=$0.00669 steps=8 failed=1
+[small_cache_budget] 1/50 multi_turn_base_1 success=True cost=$0.00152 steps=11 failed=0
+[small_cache_budget] 2/50 multi_turn_base_6 success=False cost=$0.00241 steps=16 failed=1
+[small_cache_budget] 3/50 multi_turn_base_7 success=True cost=$0.00174 steps=8 failed=0
+[small_cache_budget] 4/50 multi_turn_base_8 success=False cost=$0.00169 steps=9 failed=0
+[small_cache_budget] 5/50 multi_turn_base_11 success=False cost=$0.00081 steps=5 failed=1
+[small_cache_budget] 6/50 multi_turn_base_22 success=False cost=$0.00217 steps=10 failed=0
+[small_cache_budget] 7/50 multi_turn_base_23 success=True cost=$0.00158 steps=8 failed=1
+[small_cache_budget] 8/50 multi_turn_base_24 success=True cost=$0.00196 steps=11 failed=0
+[small_cache_budget] 9/50 multi_turn_base_26 success=True cost=$0.00112 steps=10 failed=2
+[small_cache_budget] 10/50 multi_turn_base_28 success=False cost=$0.00216 steps=10 failed=1
+[small_cache_budget] 11/50 multi_turn_base_35 success=False cost=$0.00183 steps=12 failed=1
+[small_cache_budget] 12/50 multi_turn_base_39 success=False cost=$0.00129 steps=10 failed=1
+[small_cache_budget] 13/50 multi_turn_base_40 success=True cost=$0.00170 steps=11 failed=0
+[small_cache_budget] 14/50 multi_turn_base_50 success=True cost=$0.00069 steps=2 failed=0
+[small_cache_budget] 15/50 multi_turn_base_55 success=False cost=$0.00280 steps=15 failed=2
+[small_cache_budget] 16/50 multi_turn_base_56 success=False cost=$0.00141 steps=11 failed=1
+[small_cache_budget] 17/50 multi_turn_base_57 success=True cost=$0.00147 steps=5 failed=0
+[small_cache_budget] 18/50 multi_turn_base_59 success=True cost=$0.00259 steps=17 failed=2
+[small_cache_budget] 19/50 multi_turn_base_62 success=False cost=$0.00264 steps=14 failed=1
+[small_cache_budget] 20/50 multi_turn_base_67 success=True cost=$0.00185 steps=15 failed=2
+[small_cache_budget] 21/50 multi_turn_base_70 success=False cost=$0.00130 steps=9 failed=1
+[small_cache_budget] 22/50 multi_turn_base_71 success=False cost=$0.00177 steps=16 failed=1
+[small_cache_budget] 23/50 multi_turn_base_86 success=False cost=$0.00243 steps=10 failed=1
+[small_cache_budget] 24/50 multi_turn_base_87 success=False cost=$0.00168 steps=12 failed=2
+[small_cache_budget] 25/50 multi_turn_base_88 success=True cost=$0.00173 steps=10 failed=1
+[small_cache_budget] 26/50 multi_turn_base_91 success=True cost=$0.00073 steps=5 failed=0
+[small_cache_budget] 27/50 multi_turn_base_97 success=True cost=$0.00271 steps=20 failed=2
+[small_cache_budget] 28/50 multi_turn_base_107 success=True cost=$0.00154 steps=11 failed=0
+[small_cache_budget] 29/50 multi_turn_base_108 success=True cost=$0.00194 steps=11 failed=0
+[small_cache_budget] 30/50 multi_turn_base_114 success=True cost=$0.00103 steps=11 failed=0
+[small_cache_budget] 31/50 multi_turn_base_117 success=False cost=$0.00142 steps=13 failed=0
+[small_cache_budget] 32/50 multi_turn_base_129 success=True cost=$0.00195 steps=10 failed=0
+[small_cache_budget] 33/50 multi_turn_base_137 success=True cost=$0.00103 steps=10 failed=0
+[small_cache_budget] 34/50 multi_turn_base_139 success=True cost=$0.00111 steps=5 failed=0
+[small_cache_budget] 35/50 multi_turn_base_143 success=True cost=$0.00148 steps=12 failed=0
+[small_cache_budget] 36/50 multi_turn_base_150 success=True cost=$0.00146 steps=6 failed=0
+[small_cache_budget] 37/50 multi_turn_base_151 success=True cost=$0.00218 steps=9 failed=0
+[small_cache_budget] 38/50 multi_turn_base_154 success=False cost=$0.00241 steps=11 failed=0
+[small_cache_budget] 39/50 multi_turn_base_163 success=True cost=$0.00108 steps=6 failed=0
+[small_cache_budget] 40/50 multi_turn_base_166 success=True cost=$0.00176 steps=11 failed=0
+[small_cache_budget] 41/50 multi_turn_base_168 success=True cost=$0.00196 steps=13 failed=0
+[small_cache_budget] 42/50 multi_turn_base_173 success=False cost=$0.00225 steps=9 failed=0
+[small_cache_budget] 43/50 multi_turn_base_181 success=False cost=$0.00221 steps=11 failed=0
+[small_cache_budget] 44/50 multi_turn_base_182 success=True cost=$0.00064 steps=4 failed=0
+[small_cache_budget] 45/50 multi_turn_base_185 success=False cost=$0.00150 steps=8 failed=0
+[small_cache_budget] 46/50 multi_turn_base_188 success=False cost=$0.00252 steps=14 failed=0
+[small_cache_budget] 47/50 multi_turn_base_189 success=True cost=$0.00168 steps=9 failed=0
+[small_cache_budget] 48/50 multi_turn_base_190 success=False cost=$0.00256 steps=12 failed=0
+[small_cache_budget] 49/50 multi_turn_base_191 success=True cost=$0.00129 steps=10 failed=0
+[small_cache_budget] 50/50 multi_turn_base_197 success=True cost=$0.00199 steps=8 failed=1
+[small_low] 1/50 multi_turn_base_1 success=True cost=$0.00482 steps=10 failed=0
+[small_low] 2/50 multi_turn_base_6 success=False cost=$0.00787 steps=15 failed=0
+[small_low] 3/50 multi_turn_base_7 success=True cost=$0.00675 steps=9 failed=0
+[small_low] 4/50 multi_turn_base_8 success=False cost=$0.00735 steps=9 failed=0
+[small_low] 5/50 multi_turn_base_11 success=False cost=$0.00292 steps=4 failed=1
+[small_low] 6/50 multi_turn_base_22 success=False cost=$0.00727 steps=10 failed=0
+[small_low] 7/50 multi_turn_base_23 success=True cost=$0.00503 steps=8 failed=1
+[small_low] 8/50 multi_turn_base_24 success=True cost=$0.00682 steps=11 failed=0
+[small_low] 9/50 multi_turn_base_26 success=True cost=$0.00492 steps=10 failed=2
+[small_low] 10/50 multi_turn_base_28 success=False cost=$0.00732 steps=10 failed=1
+[small_low] 11/50 multi_turn_base_35 success=True cost=$0.00770 steps=10 failed=1
+[small_low] 12/50 multi_turn_base_39 success=True cost=$0.00504 steps=10 failed=0
+[small_low] 13/50 multi_turn_base_40 success=True cost=$0.00632 steps=11 failed=0
+[small_low] 14/50 multi_turn_base_50 success=True cost=$0.00095 steps=2 failed=0
+[small_low] 15/50 multi_turn_base_55 success=False cost=$0.01175 steps=16 failed=2
+[small_low] 16/50 multi_turn_base_56 success=False cost=$0.00600 steps=11 failed=1
+[small_low] 17/50 multi_turn_base_57 success=True cost=$0.00374 steps=5 failed=0
+[small_low] 18/50 multi_turn_base_59 success=False cost=$0.01350 steps=16 failed=2
+[small_low] 19/50 multi_turn_base_62 success=False cost=$0.01010 steps=14 failed=1
+[small_low] 20/50 multi_turn_base_67 success=True cost=$0.00853 steps=13 failed=2
+[small_low] 21/50 multi_turn_base_70 success=False cost=$0.00693 steps=12 failed=2
+[small_low] 22/50 multi_turn_base_71 success=True cost=$0.00823 steps=15 failed=2
+[small_low] 23/50 multi_turn_base_86 success=False cost=$0.00971 steps=12 failed=1
+[small_low] 24/50 multi_turn_base_87 success=False cost=$0.00715 steps=13 failed=2
+[small_low] 25/50 multi_turn_base_88 success=True cost=$0.00739 steps=9 failed=1
+[small_low] 26/50 multi_turn_base_91 success=True cost=$0.00314 steps=5 failed=0
+[small_low] 27/50 multi_turn_base_97 success=True cost=$0.01202 steps=17 failed=2
+[small_low] 28/50 multi_turn_base_107 success=True cost=$0.00486 steps=11 failed=0
+[small_low] 29/50 multi_turn_base_108 success=True cost=$0.00629 steps=11 failed=0
+[small_low] 30/50 multi_turn_base_114 success=True cost=$0.00557 steps=11 failed=0
+[small_low] 31/50 multi_turn_base_117 success=False cost=$0.00569 steps=13 failed=0
+[small_low] 32/50 multi_turn_base_129 success=True cost=$0.00611 steps=10 failed=0
+[small_low] 33/50 multi_turn_base_137 success=True cost=$0.00519 steps=10 failed=0
+[small_low] 34/50 multi_turn_base_139 success=True cost=$0.00300 steps=5 failed=0
+[small_low] 35/50 multi_turn_base_143 success=True cost=$0.00618 steps=11 failed=0
+[small_low] 36/50 multi_turn_base_150 success=True cost=$0.00344 steps=6 failed=0
+[small_low] 37/50 multi_turn_base_151 success=True cost=$0.00738 steps=9 failed=0
+[small_low] 38/50 multi_turn_base_154 success=True cost=$0.00951 steps=12 failed=0
+[small_low] 39/50 multi_turn_base_163 success=True cost=$0.00370 steps=6 failed=0
+[small_low] 40/50 multi_turn_base_166 success=True cost=$0.00803 steps=11 failed=0
+[small_low] 41/50 multi_turn_base_168 success=False cost=$0.00612 steps=8 failed=0
+[small_low] 42/50 multi_turn_base_173 success=False cost=$0.00589 steps=8 failed=0
+[small_low] 43/50 multi_turn_base_181 success=True cost=$0.00849 steps=11 failed=0
+[small_low] 44/50 multi_turn_base_182 success=True cost=$0.00202 steps=4 failed=0
+[small_low] 45/50 multi_turn_base_185 success=False cost=$0.00445 steps=6 failed=0
+[small_low] 46/50 multi_turn_base_188 success=False cost=$0.01286 steps=14 failed=0
+[small_low] 47/50 multi_turn_base_189 success=True cost=$0.00771 steps=9 failed=0
+[small_low] 48/50 multi_turn_base_190 success=False cost=$0.00913 steps=11 failed=0
+[small_low] 49/50 multi_turn_base_191 success=True cost=$0.00561 steps=10 failed=0
+[small_low] 50/50 multi_turn_base_197 success=False cost=$0.00634 steps=8 failed=1
+[frontier_low] 1/50 multi_turn_base_1 success=True cost=$0.11482 steps=12 failed=1
+[frontier_low] 2/50 multi_turn_base_6 success=False cost=$0.11512 steps=12 failed=0
+[frontier_low] 3/50 multi_turn_base_7 success=True cost=$0.09524 steps=7 failed=0
+[frontier_low] 4/50 multi_turn_base_8 success=False cost=$0.14033 steps=9 failed=0
+[frontier_low] 5/50 multi_turn_base_11 success=False cost=$0.06860 steps=5 failed=1
+[frontier_low] 6/50 multi_turn_base_22 success=True cost=$0.16848 steps=12 failed=0
+[frontier_low] 7/50 multi_turn_base_23 success=True cost=$0.08441 steps=7 failed=0
+[frontier_low] 8/50 multi_turn_base_24 success=True cost=$0.13389 steps=11 failed=0
+[frontier_low] 9/50 multi_turn_base_26 success=True cost=$0.07259 steps=8 failed=0
+[frontier_low] 10/50 multi_turn_base_28 success=False cost=$0.14432 steps=10 failed=1
+[frontier_low] 11/50 multi_turn_base_35 success=True cost=$0.17526 steps=12 failed=1
+[frontier_low] 12/50 multi_turn_base_39 success=True cost=$0.09805 steps=10 failed=0
+[frontier_low] 13/50 multi_turn_base_40 success=True cost=$0.12184 steps=11 failed=0
+[frontier_low] 14/50 multi_turn_base_50 success=True cost=$0.01902 steps=2 failed=0
+[frontier_low] 15/50 multi_turn_base_55 success=True cost=$0.22103 steps=16 failed=2
+[frontier_low] 16/50 multi_turn_base_56 success=False cost=$0.11777 steps=11 failed=0
+[frontier_low] 17/50 multi_turn_base_57 success=True cost=$0.07471 steps=5 failed=0
+[frontier_low] 18/50 multi_turn_base_59 success=True cost=$0.25458 steps=16 failed=2
+[frontier_low] 19/50 multi_turn_base_62 success=False cost=$0.18254 steps=13 failed=1
+[frontier_low] 20/50 multi_turn_base_67 success=True cost=$0.17587 steps=14 failed=2
+[frontier_low] 21/50 multi_turn_base_70 success=True cost=$0.11865 steps=11 failed=2
+[frontier_low] 22/50 multi_turn_base_71 success=True cost=$0.15191 steps=14 failed=0
+[frontier_low] 23/50 multi_turn_base_86 success=True cost=$0.15544 steps=10 failed=1
+[frontier_low] 24/50 multi_turn_base_87 success=True cost=$0.12514 steps=12 failed=2
+[frontier_low] 25/50 multi_turn_base_88 success=True cost=$0.15263 steps=10 failed=1
+[frontier_low] 26/50 multi_turn_base_91 success=True cost=$0.06058 steps=5 failed=0
+[frontier_low] 27/50 multi_turn_base_97 success=True cost=$0.24513 steps=18 failed=2
+[frontier_low] 28/50 multi_turn_base_107 success=True cost=$0.09448 steps=11 failed=0
+[frontier_low] 29/50 multi_turn_base_108 success=True cost=$0.12289 steps=11 failed=0
+[frontier_low] 30/50 multi_turn_base_114 success=True cost=$0.12282 steps=12 failed=0
+[frontier_low] 31/50 multi_turn_base_117 success=True cost=$0.12671 steps=14 failed=0
+[frontier_low] 32/50 multi_turn_base_129 success=True cost=$0.11658 steps=10 failed=0
+[frontier_low] 33/50 multi_turn_base_137 success=True cost=$0.10446 steps=10 failed=0
+[frontier_low] 34/50 multi_turn_base_139 success=True cost=$0.05929 steps=5 failed=0
+[frontier_low] 35/50 multi_turn_base_143 success=True cost=$0.11823 steps=11 failed=0
+[frontier_low] 36/50 multi_turn_base_150 success=True cost=$0.06400 steps=6 failed=0
+[frontier_low] 37/50 multi_turn_base_151 success=True cost=$0.13056 steps=8 failed=0
+[frontier_low] 38/50 multi_turn_base_154 success=True cost=$0.16723 steps=11 failed=0
+[frontier_low] 39/50 multi_turn_base_163 success=True cost=$0.07016 steps=6 failed=0
+[frontier_low] 40/50 multi_turn_base_166 success=True cost=$0.15592 steps=11 failed=0
+[frontier_low] 41/50 multi_turn_base_168 success=True cost=$0.16722 steps=12 failed=0
+[frontier_low] 42/50 multi_turn_base_173 success=False cost=$0.11890 steps=8 failed=0
+Traceback (most recent call last):
+  File "/home/user/bpod-2026-paper/experiment/run_multiturn.py", line 456, in <module>
+    main()
+    ~~~~^^
+  File "/home/user/bpod-2026-paper/experiment/run_multiturn.py", line 434, in main
+    row = run_task(task, cfg, cfg_name, pricing, client, args, step_logs, spend)
+  File "/home/user/bpod-2026-paper/experiment/run_multiturn.py", line 259, in run_task
+    out, usage = client.call(SYSTEM_PROMPT, messages, tools,
+                 ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             {"task": task, "turn": t_idx, "step_in_turn": k,
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              "reverse": reverse, "methods": model_methods})
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/bpod-2026-paper/experiment/run_multiturn.py", line 216, in call
+    return super().call(system, msgs, tools, None, None)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/bpod-2026-paper/experiment/run_experiment.py", line 290, in call
+    resp = self.client.messages.create(
+        model=self.cfg["model"], max_tokens=MAX_TOKENS,
+        system=self._system(system), messages=messages, tools=tools,
+        tool_choice={"type": "auto"}, output_config={"effort": self.cfg.get("effort", EFFORT)},
+    )
+  File "/usr/local/lib/python3.13/dist-packages/anthropic/_utils/_utils.py", line 294, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/anthropic/resources/messages/messages.py", line 1029, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/v1/messages",
+        ^^^^^^^^^^^^^^^
+    ...<26 lines>...
+        stream_cls=Stream[RawMessageStreamEvent],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/anthropic/_base_client.py", line 1557, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/anthropic/_base_client.py", line 1222, in request
+    raise self._make_status_error_from_response(response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2bWdAExpTCZ1HrfZm8X'}

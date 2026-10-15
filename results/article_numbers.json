@@ -1,0 +1,370 @@
+{
+  "single_turn": {
+    "small_cache_budget": {
+      "runs": 3,
+      "success": 0.9044444444444445,
+      "cost_per_task": 0.00020153055555555556,
+      "cost_cv_across_runs": 0.008742620974950635
+    },
+    "frontier": {
+      "runs": 3,
+      "success": 0.8977777777777778,
+      "cost_per_task": 0.0036041155555555557,
+      "cost_cv_across_runs": 0.009258712376834967
+    },
+    "small": {
+      "runs": 3,
+      "success": 0.9133333333333333,
+      "cost_per_task": 0.00019178355555555556,
+      "cost_cv_across_runs": 0.01577346905603429
+    },
+    "frontier_low": {
+      "runs": 2,
+      "success": 0.92,
+      "cost_per_task": 0.00346986,
+      "cost_cv_across_runs": 0.003328494740243231
+    },
+    "small_low": {
+      "runs": 2,
+      "success": 0.9133333333333333,
+      "cost_per_task": 0.00018563466666666667,
+      "cost_cv_across_runs": 0.0046979283510088145
+    }
+  },
+  "single_turn_small_saving_vs_frontier": 0.9467876230383537,
+  "single_turn_low_effort_cost_change_frontier": -0.03725062459459927,
+  "multi_turn_n_tasks": 50,
+  "multi_turn": {
+    "frontier": {
+      "successes": 42,
+      "success": 0.84,
+      "wilson95": [
+        0.7148551903823401,
+        0.9166267863791231
+      ],
+      "cost_per_task": 0.12839968,
+      "cost_per_success": 0.15285676190476188,
+      "steps_per_task": 10.02
+    },
+    "frontier_cache": {
+      "successes": 43,
+      "success": 0.86,
+      "wilson95": [
+        0.738135428014719,
+        0.9304925473797714
+      ],
+      "cost_per_task": 0.024158308000000003,
+      "cost_per_success": 0.02809105581395349,
+      "steps_per_task": 10.1
+    },
+    "small": {
+      "successes": 29,
+      "success": 0.58,
+      "wilson95": [
+        0.4423319668777783,
+        0.7062520276543307
+      ],
+      "cost_per_task": 0.00679686,
+      "cost_per_success": 0.011718724137931034,
+      "steps_per_task": 10.14
+    },
+    "small_cache_budget": {
+      "successes": 29,
+      "success": 0.58,
+      "wilson95": [
+        0.4423319668777783,
+        0.7062520276543307
+      ],
+      "cost_per_task": 0.0017353800000000003,
+      "cost_per_success": 0.002992034482758621,
+      "steps_per_task": 10.32
+    },
+    "frontier_low": {
+      "successes": 41,
+      "success": 0.82,
+      "wilson95": [
+        0.6920368054529739,
+        0.902299172675462
+      ],
+      "cost_per_task": 0.12846375999999998,
+      "cost_per_success": 0.1566631219512195,
+      "steps_per_task": 10.06
+    },
+    "small_low": {
+      "successes": 31,
+      "success": 0.62,
+      "wilson95": [
+        0.4815019502239357,
+        0.7413740415742278
+      ],
+      "cost_per_task": 0.006657279999999999,
+      "cost_per_success": 0.010737548387096773,
+      "steps_per_task": 10.04
+    }
+  },
+  "mcnemar_frontier_vs_small": {
+    "frontier_only": 14,
+    "small_only": 1,
+    "p_exact": 0.0009765625
+  },
+  "mcnemar_frontier_cache_vs_small_cache_budget": {
+    "frontier_only": 14,
+    "small_only": 0,
+    "p_exact": 0.0001220703125
+  },
+  "composition_frontier": {
+    "fresh_input": {
+      "usd_per_task": 0.11901887999999997,
+      "share": 0.9269406278894153
+    },
+    "cache_write": {
+      "usd_per_task": 0.0,
+      "share": 0.0
+    },
+    "cache_read": {
+      "usd_per_task": 0.0,
+      "share": 0.0
+    },
+    "output": {
+      "usd_per_task": 0.009380800000000002,
+      "share": 0.07305937211058475
+    }
+  },
+  "composition_frontier_cache": {
+    "fresh_input": {
+      "usd_per_task": 5.5440000000000005e-05,
+      "share": 0.0022948627031330175
+    },
+    "cache_write": {
+      "usd_per_task": 0.00911655,
+      "share": 0.37736707388613466
+    },
+    "cache_read": {
+      "usd_per_task": 0.005633318000000001,
+      "share": 0.23318346632553902
+    },
+    "output": {
+      "usd_per_task": 0.009353000000000002,
+      "share": 0.38715459708519323
+    }
+  },
+  "composition_small": {
+    "fresh_input": {
+      "usd_per_task": 0.006161180000000001,
+      "share": 0.9064744602654755
+    },
+    "cache_write": {
+      "usd_per_task": 0.0,
+      "share": 0.0
+    },
+    "cache_read": {
+      "usd_per_task": 0.0,
+      "share": 0.0
+    },
+    "output": {
+      "usd_per_task": 0.0006356800000000001,
+      "share": 0.09352553973452446
+    }
+  },
+  "composition_small_cache_budget": {
+    "fresh_input": {
+      "usd_per_task": 2.8160000000000002e-06,
+      "share": 0.0016226986030962196
+    },
+    "cache_write": {
+      "usd_per_task": 0.00049767,
+      "share": 0.28677855603796004
+    },
+    "cache_read": {
+      "usd_per_task": 0.0005931048000000001,
+      "share": 0.34177213439263593
+    },
+    "output": {
+      "usd_per_task": 0.0006417900000000002,
+      "share": 0.36982661096630787
+    }
+  },
+  "caching_saving_frontier": 0.8118507148927474,
+  "caching_saving_small": 0.7446791606712511,
+  "multi_vs_single_turn_cost_ratio_frontier": 35.62584995424983,
+  "multi_turn_low_effort_cost_change_frontier": 0.0004990666643405195,
+  "multi_turn_low_effort_success_change_frontier_pts": -2.0000000000000018,
+  "break_even": {
+    "uncached": {
+      "v_star_usd": 0.46770315384615385,
+      "ci95_usd": [
+        0.31057528333333323,
+        0.9358610999999998
+      ]
+    },
+    "cached": {
+      "v_star_usd": 0.08008188285714285,
+      "ci95_usd": [
+        0.05472712095238095,
+        0.13827155874999997
+      ]
+    },
+    "cached_frontier_vs_uncached_small": {
+      "v_star_usd": 0.062005171428571426,
+      "ci95_usd": [
+        0.04243710999999999,
+        0.10727108749999997
+      ]
+    }
+  },
+  "cost_gap_per_task": {
+    "uncached": 0.12160281999999999,
+    "cached": 0.022422928
+  },
+  "reprice_check_uncached_frontier": {
+    "repriced": 0.12839968,
+    "measured": 0.12839968
+  },
+  "broken_cache_frontier": {
+    "cost_per_task": 0.1581544,
+    "x_working_cache": 6.546584305490268,
+    "vs_no_cache": 0.23173515697235403,
+    "v_star_vs_cached_small": 0.5586393571428571
+  },
+  "handoff_tax": {
+    "small_tasks_with_tool_error": 17,
+    "median_context_tokens_at_first_error": 5847,
+    "median_handoff_write_usd": 0.0146175,
+    "share_of_cached_frontier_task": 0.6050713485398066,
+    "median_steps_remaining": 6,
+    "note": "small-model token counts used for the frontier model (same model family)"
+  },
+  "figure1_receipt": {
+    "task_id": "multi_turn_base_56",
+    "success": true,
+    "total_usd": 0.0205204,
+    "failed_steps_usd": 0.004499,
+    "failed_share": 0.21924523888423228,
+    "same_task_uncached_frontier_usd": 0.118826,
+    "same_task_small_usd": 0.0066080999999999996,
+    "same_task_small_cached_usd": 0.00140591,
+    "small_success": false,
+    "lines": [
+      {
+        "step": 0,
+        "turn": 0,
+        "kind": "act",
+        "input_tokens": 4,
+        "cache_write_tokens": 127,
+        "cache_read_tokens": 4010,
+        "output_tokens": 137,
+        "usd": 0.0020965
+      },
+      {
+        "step": 1,
+        "turn": 0,
+        "kind": "act",
+        "input_tokens": 2,
+        "cache_write_tokens": 236,
+        "cache_read_tokens": 4137,
+        "output_tokens": 77,
+        "usd": 0.0017777000000000001
+      },
+      {
+        "step": 2,
+        "turn": 0,
+        "kind": "act",
+        "input_tokens": 2,
+        "cache_write_tokens": 92,
+        "cache_read_tokens": 4373,
+        "output_tokens": 93,
+        "usd": 0.0016013
+      },
+      {
+        "step": 3,
+        "turn": 0,
+        "kind": "final",
+        "input_tokens": 2,
+        "cache_write_tokens": 107,
+        "cache_read_tokens": 4465,
+        "output_tokens": 108,
+        "usd": 0.0017980000000000001
+      },
+      {
+        "step": 4,
+        "turn": 1,
+        "kind": "act",
+        "input_tokens": 4,
+        "cache_write_tokens": 142,
+        "cache_read_tokens": 4572,
+        "output_tokens": 70,
+        "usd": 0.0015202000000000002
+      },
+      {
+        "step": 5,
+        "turn": 1,
+        "kind": "act",
+        "input_tokens": 2,
+        "cache_write_tokens": 91,
+        "cache_read_tokens": 4714,
+        "output_tokens": 56,
+        "usd": 0.0012629
+      },
+      {
+        "step": 6,
+        "turn": 1,
+        "kind": "final",
+        "input_tokens": 2,
+        "cache_write_tokens": 75,
+        "cache_read_tokens": 4805,
+        "output_tokens": 45,
+        "usd": 0.0011220000000000002
+      },
+      {
+        "step": 7,
+        "turn": 2,
+        "kind": "failed",
+        "input_tokens": 4,
+        "cache_write_tokens": 85,
+        "cache_read_tokens": 4880,
+        "output_tokens": 176,
+        "usd": 0.0024685
+      },
+      {
+        "step": 8,
+        "turn": 2,
+        "kind": "failed",
+        "input_tokens": 2,
+        "cache_write_tokens": 316,
+        "cache_read_tokens": 4965,
+        "output_tokens": 74,
+        "usd": 0.0020305
+      },
+      {
+        "step": 9,
+        "turn": 2,
+        "kind": "act",
+        "input_tokens": 2,
+        "cache_write_tokens": 111,
+        "cache_read_tokens": 5281,
+        "output_tokens": 57,
+        "usd": 0.0013796
+      },
+      {
+        "step": 10,
+        "turn": 2,
+        "kind": "act",
+        "input_tokens": 2,
+        "cache_write_tokens": 93,
+        "cache_read_tokens": 5392,
+        "output_tokens": 53,
+        "usd": 0.0013057
+      },
+      {
+        "step": 11,
+        "turn": 2,
+        "kind": "final",
+        "input_tokens": 2,
+        "cache_write_tokens": 94,
+        "cache_read_tokens": 5485,
+        "output_tokens": 137,
+        "usd": 0.0021574999999999997
+      }
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "configs": {
+    "frontier": {
+      "n": 150,
+      "successes": 134,
+      "success_rate": 0.8933333333333333,
+      "success_ci95": [
+        0.8337524992356726,
+        0.9332702046363619
+      ],
+      "total_cost_usd": 0.545834,
+      "mean_cost_per_task": 0.0036388933333333334,
+      "cost_per_success": 0.004073388059701493,
+      "llm_calls": 150,
+      "failed_attempts": 0,
+      "failure_rate_f": 0.0,
+      "failed_attempt_cost_usd": 0.0,
+      "tokens": {
+        "input_tokens": 112742,
+        "output_tokens": 32035,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "per_category": {
+        "simple_python": {
+          "n": 30,
+          "success": 29,
+          "cost_usd": 0.06455599999999999
+        },
+        "multiple": {
+          "n": 30,
+          "success": 28,
+          "cost_usd": 0.08694599999999998
+        },
+        "parallel": {
+          "n": 30,
+          "success": 28,
+          "cost_usd": 0.12191400000000002
+        },
+        "parallel_multiple": {
+          "n": 30,
+          "success": 25,
+          "cost_usd": 0.16625000000000004
+        },
+        "irrelevance": {
+          "n": 30,
+          "success": 24,
+          "cost_usd": 0.10616799999999998
+        }
+      },
+      "pareto": false
+    },
+    "small": {
+      "n": 150,
+      "successes": 138,
+      "success_rate": 0.92,
+      "success_ci95": [
+        0.8653774250568133,
+        0.9536468180607831
+      ],
+      "total_cost_usd": 0.0282587,
+      "mean_cost_per_task": 0.00018839133333333334,
+      "cost_per_success": 0.00020477318840579712,
+      "llm_calls": 150,
+      "failed_attempts": 0,
+      "failure_rate_f": 0.0,
+      "failed_attempt_cost_usd": 0.0,
+      "tokens": {
+        "input_tokens": 112742,
+        "output_tokens": 33969,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "per_category": {
+        "simple_python": {
+          "n": 30,
+          "success": 29,
+          "cost_usd": 0.0032218000000000004
+        },
+        "multiple": {
+          "n": 30,
+          "success": 29,
+          "cost_usd": 0.004345299999999999
+        },
+        "parallel": {
+          "n": 30,
+          "success": 28,
+          "cost_usd": 0.006424699999999999
+        },
+        "parallel_multiple": {
+          "n": 30,
+          "success": 25,
+          "cost_usd": 0.008525999999999999
+        },
+        "irrelevance": {
+          "n": 30,
+          "success": 27,
+          "cost_usd": 0.005740899999999999
+        }
+      },
+      "pareto": true
+    },
+    "small_cache_budget": {
+      "n": 150,
+      "successes": 135,
+      "success_rate": 0.9,
+      "success_ci95": [
+        0.8415639255193983,
+        0.9384591631640268
+      ],
+      "total_cost_usd": 0.03004776,
+      "mean_cost_per_task": 0.0002003184,
+      "cost_per_success": 0.000222576,
+      "llm_calls": 150,
+      "failed_attempts": 0,
+      "failure_rate_f": 0.0,
+      "failed_attempt_cost_usd": 0.0,
+      "tokens": {
+        "input_tokens": 56561,
+        "output_tokens": 34738,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 56181
+      },
+      "per_category": {
+        "simple_python": {
+          "n": 30,
+          "success": 29,
+          "cost_usd": 0.00331395
+        },
+        "multiple": {
+          "n": 30,
+          "success": 28,
+          "cost_usd": 0.00502419
+        },
+        "parallel": {
+          "n": 30,
+          "success": 27,
+          "cost_usd": 0.00651052
+        },
+        "parallel_multiple": {
+          "n": 30,
+          "success": 23,
+          "cost_usd": 0.009081269999999999
+        },
+        "irrelevance": {
+          "n": 30,
+          "success": 28,
+          "cost_usd": 0.00611783
+        }
+      },
+      "pareto": false
+    }
+  },
+  "selection": {
+    "threshold": 0.9,
+    "best_config": "small",
+    "best_success_rate": 0.92,
+    "pick": "small",
+    "pick_success_rate": 0.92,
+    "saving_vs_best_config": 0.0
+  }
+}

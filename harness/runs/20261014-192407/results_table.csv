@@ -1,0 +1,4 @@
+configuration,n,success_rate,ci95_low,ci95_high,mean_cost_per_task_usd,cost_per_success_usd,failure_rate_f,pareto
+frontier,150,0.9067,0.8494,0.9436,0.00357236,0.0039401,0.0,False
+small,150,0.9067,0.8494,0.9436,0.00019276,0.0002126,0.0,True
+small_cache_budget,150,0.9,0.8416,0.9385,0.00020072,0.00022302,0.0,False

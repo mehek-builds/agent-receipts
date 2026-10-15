@@ -1,0 +1,11 @@
+This repository includes third-party material from the Berkeley Function-Calling
+Leaderboard (BFCL), part of the gorilla project
+(https://github.com/ShishirPatil/gorilla), commit
+6ea57973c7a6097fd7c5915698c54c17c5b1b6c8, licensed under the Apache License,
+Version 2.0 (see LICENSE-APACHE-2.0.txt):
+
+- harness/bfcl_mt/            BFCL multi-turn Python simulators (vendored)
+- harness/bfcl_ast_checker.py BFCL single-turn AST checker (vendored)
+- harness/bfcl_v4*.jsonl      task samples converted from BFCL v4 data
+
+Everything else is original work released under the MIT License (LICENSE).

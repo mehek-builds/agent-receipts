@@ -1,0 +1,31 @@
+{
+  "benchmark": "Berkeley Function-Calling Leaderboard (BFCL) v4",
+  "source_repo": "https://github.com/ShishirPatil/gorilla",
+  "source_path": "berkeley-function-call-leaderboard/bfcl_eval/data",
+  "commit": "6ea57973c7a6097fd7c5915698c54c17c5b1b6c8",
+  "categories": [
+    "simple_python",
+    "multiple",
+    "parallel",
+    "parallel_multiple",
+    "irrelevance"
+  ],
+  "pool_sizes": {
+    "simple_python": 400,
+    "multiple": 200,
+    "parallel": 200,
+    "parallel_multiple": 200,
+    "irrelevance": 240
+  },
+  "category_mix": {
+    "simple_python": 30,
+    "multiple": 30,
+    "parallel": 30,
+    "parallel_multiple": 30,
+    "irrelevance": 30
+  },
+  "per_category": 30,
+  "seed": 42,
+  "n_tasks": 150,
+  "license": "Apache-2.0 (BFCL data)"
+}

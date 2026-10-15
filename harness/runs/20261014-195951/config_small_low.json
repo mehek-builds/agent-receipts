@@ -1,0 +1,26 @@
+{
+  "config": "small_low",
+  "model": "claude-haiku-5-5",
+  "provider": "anthropic",
+  "prompt_caching": false,
+  "max_tool_calls": 12,
+  "pricing_key": "claude-haiku-5-5",
+  "effort": "low",
+  "rates": {
+    "provider": "anthropic",
+    "tier_high": {
+      "cache_read_per_mtok": 0.05,
+      "cache_write_5min_per_mtok": 0.625,
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 2.5,
+      "cache_write_1h_per_mtok": 1.0
+    },
+    "tier_low": {
+      "cache_read_per_mtok": 0.01,
+      "cache_write_5min_per_mtok": 0.125,
+      "input_per_mtok": 0.1,
+      "output_per_mtok": 0.5,
+      "cache_write_1h_per_mtok": 0.2
+    }
+  }
+}

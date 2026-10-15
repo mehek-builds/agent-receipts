@@ -1,0 +1,28 @@
+{
+  "benchmark": "Berkeley Function-Calling Leaderboard (BFCL) v4, multi_turn_base",
+  "source_repo": "https://github.com/ShishirPatil/gorilla",
+  "commit": "6ea57973c7a6097fd7c5915698c54c17c5b1b6c8",
+  "pool_size": 200,
+  "n_tasks": 50,
+  "seed": 42,
+  "turns_histogram": {
+    "4": 13,
+    "5": 13,
+    "3": 12,
+    "2": 8,
+    "1": 1,
+    "6": 3
+  },
+  "class_mix": {
+    "GorillaFileSystem": 13,
+    "TwitterAPI": 10,
+    "TicketAPI": 7,
+    "MathAPI": 4,
+    "MessageAPI": 14,
+    "VehicleControlAPI": 14,
+    "TradingBot": 8,
+    "TravelAPI": 15
+  },
+  "ground_truth_calls_mean": 5.84,
+  "license": "Apache-2.0 (BFCL data and simulators)"
+}
